@@ -7,8 +7,8 @@ import Navigation from './components/Navigation';
 import Products from './components/Products';
 import ShoppingCart from './components/ShoppingCart';
 
-import ProductContext from './contexts/ProductContext.js';
-import CartContext from './contexts/CartContext.js';
+import { ProductContext } from './contexts/ProductContext.js';
+import { CartContext } from './contexts/CartContext.js';
 
 function App() {
 	const [products] = useState(data);
